@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/securejwtcommunication/clientlibs"/>
+    <filter root="/apps/securejwtcommunication/components"/>
+    <filter root="/apps/securejwtcommunication/i18n"/>
+    <filter root="/apps/msm/securejwtcommunication_blueprint" mode="merge"/>
+</workspaceFilter>

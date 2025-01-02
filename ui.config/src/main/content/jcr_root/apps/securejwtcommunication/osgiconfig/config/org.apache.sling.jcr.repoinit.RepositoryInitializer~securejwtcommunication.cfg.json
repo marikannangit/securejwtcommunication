@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/securejwtcommunication",
+        "create path (nt:unstructured) /content/dam/securejwtcommunication/jcr:content",
+        "set properties on /content/dam/securejwtcommunication/jcr:content\n  set cq:conf{String} to /conf/securejwtcommunication\n  set jcr:title{String} to \"Secure JWT Communication\"\nend"
+    ]
+}

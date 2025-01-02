@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/securejwtcommunication" mode="merge"/>
+    <filter root="/content/securejwtcommunication" mode="merge"/>
+    <filter root="/content/dam/securejwtcommunication" mode="merge">
+        <exclude pattern="/content/dam/securejwtcommunication(/.*)?"/>
+        <include pattern="/content/dam/securejwtcommunication/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/securejwtcommunication/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/securejwtcommunication" mode="merge"/>
+</workspaceFilter>
